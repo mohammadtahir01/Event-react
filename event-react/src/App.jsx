@@ -4,6 +4,9 @@ import Form from './form.jsx'
 import Hover from './non event.jsx'
 import AccessEvent from './access event.jsx'
 import State from './state.jsx'
+import State2 from './state2.jsx'
+import LikeBtn from './like button.jsx'
+
 
 function App() {
 
@@ -13,7 +16,9 @@ function App() {
     <Button/>
     <Hover/>
     <AccessEvent/> */}
-    <State/>
+    {/* <State/>
+    <State2/> */}
+    <LikeBtn/>
     </>
   )
 }
