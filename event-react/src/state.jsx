@@ -17,13 +17,15 @@
 import { useState } from "react";
 export default function State(){
 //   let arr = useState(3);
-//   console.log(arr);
+ 
    
 // let [stateVariable, setStateVariable] = useState(0);
-let [count, setCount] = useState(0);
+let [count, setCount] = useState(0); 
+console.log(`just cliking `);
+
 let cont =() =>{
     setCount(count + 1);
-    // console.log(count);
+    console.log(`After clicking : ${count}`);
 };
     return(
         <div>
