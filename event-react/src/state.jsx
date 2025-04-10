@@ -24,7 +24,14 @@ let [count, setCount] = useState(0);
 console.log(`just cliking `);
 
 let cont =() =>{
-    setCount(count + 1);
+    setCount(count + 1); // this is normal call of set count 
+    // setCount((current)=>{  //CallBack Updatetion 
+    //     return current+1;
+    // });
+    // setCount((current)=>{
+    //     return current+1;
+    // });
+   
     console.log(`After clicking : ${count}`);
 };
     return(
