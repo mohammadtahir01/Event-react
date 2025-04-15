@@ -28,6 +28,10 @@ export default function Lodo(){
         setMove({ ...Move,Green: Move.Green + 1 });
         
     }
+
+    let reset =()=>{
+        setMove({Blue:0,Yellow:0 , Red:0,Green:0});
+    }
     return(
         <>
         <h1>Lodo Board</h1>
@@ -42,6 +46,7 @@ export default function Lodo(){
 
         <p>Green={Move.Green}</p>
         <button onClick={click4} style={{backgroundColor:"green", color:"white"}}>+1</button>
+        <button onClick={reset}>Reset</button>
         </>
     )
 }

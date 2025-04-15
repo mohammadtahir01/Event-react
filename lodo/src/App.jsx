@@ -1,11 +1,14 @@
 import './App.css'
-import Lodo from './lodo1.jsx'
+// import Lodo from './lodo1.jsx'
+import AddTask from './addTask'
 
 function App() {
 
   return (
     <>
-     <Lodo/>
+     {/* <Lodo/> */}
+     <AddTask/>
+
     </>
   )
 }
